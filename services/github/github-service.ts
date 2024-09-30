@@ -40,12 +40,7 @@ export const getGitGubReposByUser = async (
 ): Promise<Repository[]> => {
   try {
     const response = await instanceAxios.get<Repository[]>(
-      `${EnumEndpoints.User}/${username}/${EnumEndpoints.Repos}`,
-      {
-        headers: {
-          Authorization: `token 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`,
-        },
-      }
+      `${EnumEndpoints.User}/${username}/${EnumEndpoints.Repos}`
     );
     return response.data;
   } catch (error) {

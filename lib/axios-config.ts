@@ -11,7 +11,7 @@ export const instanceAxios = axios.create({
   baseURL,
   headers: {
     "Content-Type": "application/json",
-    Authorization: `token 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`,
+    Authorization: `token ${token}`,
   },
 });
 
