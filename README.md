@@ -1,6 +1,3 @@
-<<<<<<< Updated upstream
-# Users-github-React
-=======
 # Users-github-React
 ## Descripción
 
@@ -31,7 +28,7 @@ Asegúrate de tener instalado Node.js (version 14 o superior) y npm.
     ```Ejecutar comando en terminal
     npm install
 
-4. configura la autorizacion en el archivo axios-config.ts
+4. configura la autorizacion en el archivo axios-config.ts (opcional si no quieres tener limite de llamadas al api de github)
 
     configura la llave de acceso de tu github y colocala el siguiente header:
     Authorization: `token TU_KEY`,
@@ -43,4 +40,3 @@ Asegúrate de tener instalado Node.js (version 14 o superior) y npm.
 
     ```Ejecutar comando en terminal
     npm run dev
->>>>>>> Stashed changes
