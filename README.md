@@ -31,11 +31,6 @@ Asegúrate de tener instalado Node.js (version 14 o superior) y npm.
     ```Ejecutar comando en terminal
     npm install
 
-3. Levanta el proyecto.
-
-    ```Ejecutar comando en terminal
-    npm run dev
-
 4. configura la autorizacion en el archivo axios-config.ts
 
     configura la llave de acceso de tu github y colocala el siguiente header:
@@ -43,4 +38,9 @@ Asegúrate de tener instalado Node.js (version 14 o superior) y npm.
 
 4. **Notas Adicionales**: crea el archivo .env y agrega la siguiente llave:
     NEXT_PUBLIC_API_BASE_URL="https://api.github.com/"
+
+5. Levanta el proyecto.
+
+    ```Ejecutar comando en terminal
+    npm run dev
 >>>>>>> Stashed changes
