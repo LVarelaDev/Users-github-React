@@ -43,7 +43,7 @@ export const getGitGubReposByUser = async (
       `${EnumEndpoints.User}/${username}/${EnumEndpoints.Repos}`
     );
     return response.data;
-  } catch (error) {
+  } catch (error) { 
     throw "error in getGitGubReposByUser";
   }
 };
